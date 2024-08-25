@@ -24,8 +24,8 @@ function MyComp() {
       }
 
 
-      
-      const res = await fetch('http://localhost:8080/bfhl', {
+
+      const res = await fetch('https://bhealth-be.onrender.com/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
