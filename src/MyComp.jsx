@@ -23,6 +23,8 @@ function MyComp() {
         throw new Error('Invalid JSON format');
       }
 
+
+      
       const res = await fetch('http://localhost:8080/bfhl', {
         method: 'POST',
         headers: {
